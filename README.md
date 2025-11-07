@@ -1,0 +1,2 @@
+# Customer-Churn-Prediction-System-with-Dashboard-Web-App
+Built an end-to-end ML solution to predict customer churn for subscription businesses. Includes data cleaning, feature engineering, model comparison (Logistic Regression, RandomForest, XGBoost), evaluation (ROC-AUC, PR, confusion matrix), business interpretation, cost-benefit analysis, and a deployed Streamlit app for real-time predictions.
