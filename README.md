@@ -1,4 +1,11 @@
 # 📘 Customer Churn Prediction System
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python)
+![ML](https://img.shields.io/badge/ML-Scikit--learn%20%7C%20XGBoost-orange)
+![Explainability](https://img.shields.io/badge/Explainability-SHAP-lightgrey)
+![App](https://img.shields.io/badge/Framework-Streamlit-brightgreen?logo=streamlit)
+![Deploy](https://img.shields.io/badge/Deployment-Render%20%7C%20HuggingFace-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 ## 🧩 Project Overview
 
@@ -52,3 +59,19 @@ churn-prediction/
 │
 └── README.md
 ```
+
+---
+
+## 📊 Dataset Information
+
+### Dataset: Telco Customer Churn (Kaggle)
+Records: 7,043 customers
+Features: 21 (demographics, services, contracts, payments)
+Target: Churn (Yes = 1, No = 0)
+
+### Key Columns:
+* tenure → months with company
+* Contract → month-to-month, one-year, two-year
+* PaymentMethod → electronic check, mailed check, etc.
+* MonthlyCharges, TotalCharges → billing amounts
+* InternetService, TechSupport, StreamingTV, etc.
