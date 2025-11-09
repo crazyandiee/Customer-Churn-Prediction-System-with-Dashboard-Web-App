@@ -12,3 +12,14 @@ By building a predictive model, businesses can:
 * Identify high-risk customers early
 * Target them with retention campaigns
 * Estimate potential cost savings from churn prevention
+
+## 🧰 Tech Stack
+
+| Layer                      | Tools                                   |
+| -------------------------- | --------------------------------------- |
+| **Data Handling**          | Python, Pandas, NumPy                   |
+| **Modeling**               | Scikit-learn, XGBoost, RandomForest     |
+| **Explainability**         | SHAP (feature importance)               |
+| **Visualization**          | Matplotlib, Seaborn                     |
+| **Versioning**             | Git + GitHub                            |
+| **Deployment (Next Step)** | Streamlit + Render / HuggingFace Spaces |
