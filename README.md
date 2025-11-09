@@ -1,2 +1,14 @@
-# Customer-Churn-Prediction-System-with-Dashboard-Web-App
-Built an end-to-end ML solution to predict customer churn for subscription businesses. Includes data cleaning, feature engineering, model comparison (Logistic Regression, RandomForest, XGBoost), evaluation (ROC-AUC, PR, confusion matrix), business interpretation, cost-benefit analysis, and a deployed Streamlit app for real-time predictions.
+# 📘 Customer Churn Prediction System
+## 🧩 Project Overview
+
+This project aims to predict customer churn for a subscription-based telecom business using machine learning techniques.
+The goal is to identify customers likely to discontinue service, analyze the factors driving churn, and provide actionable insights to reduce attrition.
+
+## 🧠 Business Problem
+
+Customer churn directly impacts a company’s recurring revenue and long-term profitability.
+By building a predictive model, businesses can:
+
+* Identify high-risk customers early
+* Target them with retention campaigns
+* Estimate potential cost savings from churn prevention
