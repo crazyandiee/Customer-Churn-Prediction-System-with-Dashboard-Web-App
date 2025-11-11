@@ -57,6 +57,8 @@ churn-prediction/
 ├── models/
 │   └── churn_best_model.pkl                      # Trained best model (saved)
 │
+├── streamlit_app.py                              # Deployed web app
+├── requirements.txt                              # Required packages
 └── README.md
 ```
 
@@ -65,13 +67,75 @@ churn-prediction/
 ## 📊 Dataset Information
 
 ### Dataset: Telco Customer Churn (Kaggle)
-Records: 7,043 customers
-Features: 21 (demographics, services, contracts, payments)
-Target: Churn (Yes = 1, No = 0)
+Source: Telco Customer Churn Dataset (Kaggle)
+Rows: 7,043 customers
+Target Variable: Churn (Yes = 1, No = 0)
 
-### Key Columns:
-* tenure → months with company
-* Contract → month-to-month, one-year, two-year
-* PaymentMethod → electronic check, mailed check, etc.
-* MonthlyCharges, TotalCharges → billing amounts
-* InternetService, TechSupport, StreamingTV, etc.
+Key columns:
+* tenure → months with the company
+* Contract → type of subscription
+* PaymentMethod → billing mode
+* MonthlyCharges, TotalCharges → spending behavior
+* TechSupport, OnlineSecurity, StreamingTV → service features
+
+---
+
+## 🚀 Model Training & Evaluation
+
+Models tested:
+* Logistic Regression (baseline)
+* Random Forest
+* XGBoost (best performer)
+
+Metrics used:
+* Accuracy, Precision, Recall, F1-Score, ROC-AUC
+* 🏁 Best Model: XGBoost — ROC-AUC ≈ 0.85
+
+---
+
+## 🔍 Explainability (SHAP)
+
+Used SHAP for:
+* Global feature importance
+* Local explanations (why each customer is likely to churn)
+
+### Top churn drivers:
+* Contract type → Month-to-month increases churn
+* Short tenure → Strong churn indicator
+* Electronic check payments → Higher churn risk
+* Lack of tech support → Higher churn probability
+* Multiple services → Lower churn risk
+
+---
+## 🌐 Streamlit Web App
+
+Interactive web app for real-time churn prediction.
+
+### Features:
+* CSV upload support
+* Instant churn probability scoring
+* Risk segmentation: Low / Medium / High / Very High
+* Downloadable results
+* Visual churn distribution chart
+
+Local Run:
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+
+---
+
+## 📸 App Preview
+
+
+---
+
+## 💾 Requirements
+* streamlit
+* pandas
+* numpy
+* scikit-learn
+* xgboost
+* joblib
+
+
+
