@@ -1,11 +1,13 @@
 # 📘 Customer Churn Prediction System
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python)
-![ML](https://img.shields.io/badge/ML-Scikit--learn%20%7C%20XGBoost-orange)
+![ML](https://img.shields.io/badge/Machine%20Learning-Scikit--learn%20%7C%20XGBoost-orange)
 ![Explainability](https://img.shields.io/badge/Explainability-SHAP-lightgrey)
-![App](https://img.shields.io/badge/Framework-Streamlit-brightgreen?logo=streamlit)
-![Deploy](https://img.shields.io/badge/Deployment-Render%20%7C%20HuggingFace-blueviolet)
+![Framework](https://img.shields.io/badge/Framework-Streamlit-brightgreen?logo=streamlit)
+![Deployment](https://img.shields.io/badge/Deployment-Render%20%7C%20Hugging%20Face-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red)
+
 
 ## 🧩 Project Overview
 
@@ -125,8 +127,7 @@ streamlit run streamlit_app.py
 ---
 
 ## 📸 App Preview
-
-
+![App Screenshot](images/Screenshot.png)
 ---
 
 ## 💾 Requirements
@@ -137,5 +138,22 @@ streamlit run streamlit_app.py
 * xgboost
 * joblib
 
+---
+## 🧭 Next Steps
+* ✅ Streamlit app tested locally
+* 🚀 Deploy to Hugging Face Spaces or Render
+* 🎥 Add demo video / GIF to README
+* 📊 Create Power BI dashboard for executive churn summary
+
+---
+
+## 📬 Connect With Me
+If you found this project interesting — let’s connect 👇
+- LinkedIn: https://www.linkedin.com/in/advait-chavadekar/
+- GitHub: https://github.com/crazyandiee
+
+---
+
+# ⭐ If you like this project, please star the repository to support!
 
 
